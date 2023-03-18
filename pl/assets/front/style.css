@@ -1,0 +1,566 @@
+.container {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.head2 {
+	padding-top: 3rem;
+	margin-bottom: 2rem;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+	.category_link {
+		margin-top: 6rem;
+		display: block;
+		border: solid #333 1px;
+		border-radius: 6px;
+		width: fit-content;
+		text-align: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 30px;
+		padding-right: 8px;
+		position: relative;
+	}
+
+	.category_link:hover {
+		color: #000;
+	}
+
+	.category_link:before {
+		content: '';
+		position: absolute;
+		left: 8px;
+		top: 28%;
+		width: .625rem;
+		height: 1rem;
+		background-image: url('https://veritum.org/wp-content/uploads/2023/01/left-arrow.svg');
+		background-position: center;
+	}
+
+	.img-wrap {
+		margin: 0 auto;
+	}
+
+
+	.tytel-wrap {
+		text-align: center;
+		display: block;
+		width: 120px;
+		height: 60px;
+		border-bottom: solid rgb(231, 6, 6) 6px;
+		margin-bottom: 4rem;
+	}
+
+	.tytel {
+		padding-top: 28px;
+	}
+
+	/* fundrising */
+
+	.top-fundrising{
+		width: 100%;
+		padding-bottom: 2rem;
+		position: relative;
+		background: rgb(241, 241, 241);
+	}
+	
+	.fundrising{
+		height: 460px;
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		width: 100%;
+		flex-wrap: nowrap;
+		background-color: rgb(219, 218, 218);
+		border-radius: 8px 8px 8px 8px;
+	}
+	
+	.fundrising__img-wrap{
+		position: relative;
+		border-radius: 0px 8px 8px 0px;
+		min-width: 70%;
+	}
+	
+	.fundrising-img{
+		width: 100%;
+		height: 100%;
+		border-radius: 0px 8px 8px 0px;
+		object-fit:cover;
+		object-position: left;
+	}
+	
+	.--home::before{
+		content: '';
+		bottom: 0;
+		left: 0;
+		right: 0;
+		min-height: 8.8rem;
+		min-width: 100%;
+		position: absolute;
+		z-index: 2;
+		border-radius: 0px 8px 8px 0px;;
+		background: linear-gradient(180deg, #0000 20%, #000 100%);
+	}
+	
+	.top-fundrising__tytle{
+		padding-bottom: 1rem;
+	}
+	
+	.fundrising__tytle{
+		position: absolute;
+		bottom: 1.5rem;
+		padding: 0 1rem;
+		max-width: 722px;
+		width: 100%;
+		color: #fff;
+		z-index: 2;
+	}
+	
+	.fundrising__tytle-mobile{
+		display: none;
+		padding-bottom: 1rem;
+	}
+	
+	.fundrising__tytle-mobile:hover{
+		color: #000;
+	}
+	
+	.fundrising__content{	
+		display:flex;
+		flex-direction: column;
+		justify-content: space-between;
+		padding: 1.5rem;
+		font-weight: 600;
+	}
+	
+	.fundrising__text{
+		line-height: 1.5rem;
+		margin-bottom: 1rem;
+	}
+	
+	.progress{
+		width: 90%;
+	}
+	
+	.progress__bar{
+		accent-color: red;
+		width: 100%;
+	}
+	.fundrising__form-wrap{
+		padding: 0.5rem 2rem;
+		display: block;
+		height: 100%;
+	}
+	.fundrising__row{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		min-width: 100%;
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+	}
+	
+	.fundrising__block{
+		padding-top: 0.5rem;
+	}
+	
+	.form-select{
+		font-size: 1rem;
+		font-weight: 600;
+		border: 0;
+		border-radius: 6px;
+		height: 52px;
+		background-color: #f1f1f1;
+		padding-left: 6px;
+	}
+	
+	.form-output{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		
+	}
+	
+	.l1{
+		font-weight: 600;
+		line-height: 2rem;
+	}
+	
+	.l2{
+		font-size: 14px;
+		line-height: 1.2rem;
+	}
+	.l3{
+		float: right;
+		font-size: 0.7rem;
+	}
+	
+	.submit{
+		margin: 0 auto;
+		display: block;
+		width: 90%;
+		height: 54px;
+		background-color: rgb(231, 6, 6);
+		color: #fff;
+		border: 0;
+		border-radius: 6px;
+		font-size: 1.2rem;
+		font-weight: 700;
+	}
+	
+	.--goals{
+		padding-bottom: 0;
+	}
+	
+	.--currency{
+		width: 30%;
+		
+	}
+	
+	.--amount{
+		width: 60%;
+		text-align: end;
+		padding-right: 1rem;
+		font-size: 1.5rem;
+	}
+	
+	.--team{
+		width: 100%;
+		height: 2.5rem;
+	}
+
+	.sucess-img-wrap {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 10rem;
+		width: 10rem;
+		margin: 2rem auto;
+		background-color: rgb(250, 248, 248);
+		border-radius: 6px;
+	}
+
+	.sucess-img {
+		max-width: 6rem;
+		max-height: 6rem;
+		filter: invert(100%) sepia(0%) saturate(2218%) hue-rotate(216deg) brightness(116%) contrast(74%);
+	}
+
+	/*  */
+
+	/* catalogue */
+	.catalogue {
+		overflow-y: hidden;
+		position: relative;
+	}
+
+	.catalogue__tytle {
+		padding: 2rem 0;
+	}
+
+	.catalogue__tytle:hover {
+		color: #000
+	}
+
+	.catalogue__items {
+		display: flex;
+		flex-wrap: wrap;
+		height: 100%;
+		width: 100%;
+	}
+
+	.--contacts__items{
+		justify-content: center;
+	}
+
+	.catalogue__item{
+		width: fit-content;
+		margin: 0 1rem;
+	}
+
+	.card {
+		margin: 1rem 1rem;
+		width: 30%;
+		box-shadow: 0px 0px 16px 6px rgb(141 136 117 / 10%);
+		border-radius: 5px 5px 0px 0px;
+		display: block;
+		position: relative;
+	}
+
+	.--contacts__card{
+		padding-top: 2rem;
+	}
+
+	.card__img-wrap {
+		width: 100%;
+		max-height: 180px;
+		border-radius: inherit;
+	}
+
+	.card__img {
+		width: 100%;
+		max-height: 180px;
+		box-sizing: border-box;
+		object-fit: cover;
+		border-radius: inherit;
+	}
+
+	.conact__img{
+		width: 100%;
+		max-height: 180px;
+		object-fit:contain;
+	}
+
+	.card__header {
+		margin: 0.7rem 0;
+	}
+
+	.--contacts__header{
+		text-align: center;
+	}
+
+	.card__header:hover{
+		color: #000;
+	}
+
+	.card__content {
+		padding: 1rem 1rem;
+		max-height: 100%;
+	}
+
+	.card__text {
+		font-size: 0.9rem;
+		line-height: 1.5rem;
+		margin-bottom: 3rem;
+		margin-top: 0.5rem;
+	}
+
+	.card__progress {
+		position: absolute;
+		bottom: 1rem;
+	}
+
+	/* progress bar */
+
+	.progress__label {
+		/* margin-bottom: -12px; */
+		font-size: 0.9rem;
+		display: flex;
+		justify-content: space-between;
+		width: 98%;
+	}
+
+	.progress__bar {
+		min-height: 16px;
+	}
+
+	.card__progress-bar {
+		width: 100%;
+	}
+
+	.catalogue__but {
+		width: 12em;
+		height: 48px;
+		border: 1px solid #000;
+		border-radius: 6px;
+		font-weight: 700;
+		color: rgb(66, 66, 66);
+	}
+
+	.catalogue__but:hover {
+		color: #000;
+	}
+
+	.catalogue__but2 {
+		width: 12em;
+		height: 48px;
+		border: 1px solid #000;
+		border-radius: 6px;
+		font-weight: 700;
+		color: rgb(66, 66, 66);
+	}
+
+	.catalogue__but-wrap {
+		margin-top: 1rem;
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+
+@media (max-width: 992px) {
+
+	.card__content{
+		padding: 0.5rem 0.5rem;
+	}
+	.card__text {
+		font-size: 0.7rem;
+		line-height: 1rem;
+	}
+
+	.catalogue__but {
+		width: 10em;
+		height: 36px;
+		font-size: 0.7rem;
+	}
+
+	.--contacts__items{
+		justify-content: flex-start;
+	}
+
+	/* fundrising */
+
+	.fundrising{
+		display: block;
+		height: 100%;
+		min-width: 95vw;
+	}
+
+	.--home::before{
+		display: none;
+		border-radius: 0px 8px 0px 0px;
+	}
+
+	.fundrising__img{
+		max-height: 200px !important;
+		width: 100%;
+		border-radius: 5px 5px 0px 0px;
+	}
+
+	.fundrising__tytle{
+		display: none;
+	}
+
+	.fundrising__tytle-mobile{
+		display: block;
+	}
+	
+	.fundrising__content{
+		width: 100%;
+		padding: 0.5rem 1rem;
+	}
+
+
+	.fundrising-img{
+		max-height: inherit;
+		border-radius: 5px 5px 0px 0px;
+		max-height: 300px;
+		width: 100%;
+		object-fit: cover;
+	}
+
+	.fundrising__form-wrap{
+		padding: 0.5rem 0.5rem;
+	}
+
+	.form-select{
+		height: 38px;
+	}
+
+	.fundrising__row{
+		padding-bottom: 0.2rem;
+	}
+
+	.fundrising__block{
+		padding-top: 0.5rem;
+	}
+
+	.--team{
+		margin-top: -0.2rem;
+		height: 36px;
+	}
+
+	.--currency{
+		width: 65%;
+	}
+	
+	.--amount{
+		width: 30%;
+	}
+
+
+	.l2{
+		display: none;
+	}
+
+	.submit{
+		height: 36px;
+		width: 100%;
+		margin-bottom: 1rem;
+	}
+	
+	/*  */
+	/* catalogue */
+
+	
+
+	.tabs__tabcontent {
+		display: flex;
+		flex-wrap: nowrap;
+	}
+
+
+	.catalogue__items {
+		display: flex;
+		flex-wrap: nowrap;
+		overflow-x: scroll;
+	}
+
+	.card {
+		min-width: 90%;
+		max-height: 460px;
+	}
+
+	.card__img {
+		max-height: 200px;
+	}
+
+	.catalogue__btn1 {
+		display: none !important;
+	}
+
+	.catalogue__btn2 {
+		display: block;
+	}
+
+		/*  */
+}
+
+@media screen and (max-width: 420px){
+	.fundrising-img{
+        max-height: 150px;
+    }
+
+	.fundrising__text{
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 14px;
+    }
+}
+
+@media screen and (max-width: 260px){
+
+    .catalogue__but{
+        display: none;
+    
+    }
+
+    .fundrising__text{
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 14px;
+    }
+
+    .fundrising__row{
+        font-size: 0.7rem;
+    }
+
+    .l2{
+        font-size: 14px;
+    }
+
+    .l2{
+        font-size: 14px;
+    }
+}
