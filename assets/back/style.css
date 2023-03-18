@@ -1,0 +1,31 @@
+.stripe-imputs{
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+
+
+.description{
+
+    margin-top: 0.5rem;
+
+}
+
+
+
+.stripe-imputs{
+
+    max-width: 75%;
+
+}
+
+.checkbox1{
+    margin-left: 4rem !important;
+}
+
+.form__title{
+    margin-left: 40%;
+}
